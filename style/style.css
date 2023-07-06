@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
 }
+/* start navber section */
 .logo-image {
     width: 120px;
 }
 .container {
-    background-color: rgb(37, 35, 35);
+    background-color: rgb(49, 47, 47);
     color: white;
     padding: 20px;
     display: flex;
@@ -19,9 +20,42 @@
 .list{
     list-style: none;
     margin-right: 20px;
-    padding: 10px;
+    padding-right: 7px;
 }
 .list:hover {
     color: blue;
     cursor: pointer;
 }
+/* end navbar section */
+/* start banner section */
+.banner-img {
+    width: 300px;
+}
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url("../images/background.png"),
+    linear-gradient(45deg,#161414,#1d1a1a);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-tittle {
+    font-size: 55px;
+    font-weight: bold;
+}
+.description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn {
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* end banner section */
