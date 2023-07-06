@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo-image {
+    width: 120px;
+}
+.container {
+    background-color: rgb(37, 35, 35);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus {
+    display: flex;
+}
+.list{
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+.list:hover {
+    color: blue;
+    cursor: pointer;
+}
