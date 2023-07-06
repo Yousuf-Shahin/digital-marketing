@@ -28,7 +28,7 @@
 }
 /* end navbar section */
 /* start banner section */
-.banner-img {
+.banner-img,.about-photo {
     width: 300px;
 }
 .banner-container {
@@ -52,10 +52,32 @@
     margin-bottom: 15px;
 }
 .btn {
-    padding: 10px 10px;
+    padding: 15px 15px;
     background-color: red;
     color: white;
     border: none;
     cursor: pointer;
 }
 /* end banner section */
+/* start about section */
+.about-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 25px;
+}
+.about-tittle {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.about-description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.about-img {
+    
+}
